@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *finalYears;
+@property (strong, nonatomic) IBOutlet UITextField *yearsTextField;
+- (IBAction)buttonConvert:(UIButton *)sender;
 
 
 @end

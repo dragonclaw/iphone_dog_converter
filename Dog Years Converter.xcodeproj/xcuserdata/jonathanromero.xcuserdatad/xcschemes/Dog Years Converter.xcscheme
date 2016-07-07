@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "44B5EC8E1D2EB30200B186B9"
+               BuildableName = "Dog Years Converter.app"
+               BlueprintName = "Dog Years Converter"
+               ReferencedContainer = "container:Dog Years Converter.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "44B5ECA71D2EB30200B186B9"
+               BuildableName = "Dog Years ConverterTests.xctest"
+               BlueprintName = "Dog Years ConverterTests"
+               ReferencedContainer = "container:Dog Years Converter.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "44B5ECB21D2EB30200B186B9"
+               BuildableName = "Dog Years ConverterUITests.xctest"
+               BlueprintName = "Dog Years ConverterUITests"
+               ReferencedContainer = "container:Dog Years Converter.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "44B5EC8E1D2EB30200B186B9"
+            BuildableName = "Dog Years Converter.app"
+            BlueprintName = "Dog Years Converter"
+            ReferencedContainer = "container:Dog Years Converter.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "44B5EC8E1D2EB30200B186B9"
+            BuildableName = "Dog Years Converter.app"
+            BlueprintName = "Dog Years Converter"
+            ReferencedContainer = "container:Dog Years Converter.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "44B5EC8E1D2EB30200B186B9"
+            BuildableName = "Dog Years Converter.app"
+            BlueprintName = "Dog Years Converter"
+            ReferencedContainer = "container:Dog Years Converter.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

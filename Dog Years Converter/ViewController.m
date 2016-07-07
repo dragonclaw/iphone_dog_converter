@@ -24,4 +24,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonConvert:(UIButton *)sender {
+    int dogYears = [self.yearsTextField.text intValue];
+    int humanYears = dogYears*7;
+    self.finalYears.text = [NSString stringWithFormat:(@"%i"),humanYears];
+    
+}
 @end

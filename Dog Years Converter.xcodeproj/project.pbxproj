@@ -15,6 +15,7 @@
 		44B5ECA21D2EB30200B186B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B5ECA01D2EB30200B186B9 /* LaunchScreen.storyboard */; };
 		44B5ECAD1D2EB30200B186B9 /* Dog_Years_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B5ECAC1D2EB30200B186B9 /* Dog_Years_ConverterTests.m */; };
 		44B5ECB81D2EB30200B186B9 /* Dog_Years_ConverterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B5ECB71D2EB30200B186B9 /* Dog_Years_ConverterUITests.m */; };
+		44B5ECC61D2EB3CE00B186B9 /* laika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44B5ECC51D2EB3CE00B186B9 /* laika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		44B5ECB31D2EB30200B186B9 /* Dog Years ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog Years ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B5ECB71D2EB30200B186B9 /* Dog_Years_ConverterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog_Years_ConverterUITests.m; sourceTree = "<group>"; };
 		44B5ECB91D2EB30200B186B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B5ECC51D2EB3CE00B186B9 /* laika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		44B5EC921D2EB30200B186B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44B5ECC51D2EB3CE00B186B9 /* laika.jpg */,
 				44B5EC931D2EB30200B186B9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -245,6 +248,7 @@
 			files = (
 				44B5ECA21D2EB30200B186B9 /* LaunchScreen.storyboard in Resources */,
 				44B5EC9F1D2EB30200B186B9 /* Assets.xcassets in Resources */,
+				44B5ECC61D2EB3CE00B186B9 /* laika.jpg in Resources */,
 				44B5EC9D1D2EB30200B186B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
